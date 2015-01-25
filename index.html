@@ -22,40 +22,47 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-<div id=container>
+<section id="container">
     <header>
-        <h1>{greg_maka}</h1>
+        <h1> {greg_maka} </h1>
         <p> /* aspiring PHP Developer */</p>
     </header>
     <section class="boxes">
-
-        <h3 class="box1"><span style="color:#00BFFF;font-size: 50px">[about_me]</span><br> Welcome to my MIS-241 webpage! I am an aspiring PHP/Drupal developer. I love learning new skills and I love programming. I live in Oak Lawn, and I have an amazing wife and son <br><span style="color:#00BFFF;font-size: 21px">The two sites I visit most often are</span><br>
-            <a href="http://drupalize.me"> Drupalize Me! </a><br>and<br>
-            <a href="http://php.net"> PHP.net</a></h3>
-        <h3 class="box2"></h3>
-        <h3 class="box3"><span style="color:#00BFFF;font-size: 50px;text-align: center;">{my_skills}</span><br>
+        <section class="box1"><p><span id="textstyle">[about_me]</span><br> Welcome to my MIS-241 webpage! I am an    aspiring PHP/Drupal developer. I love learning new skills and I love programming. I live in Oak Lawn, and I have an amazing wife and son.</p>
+        </section>
+         <section class="box2"></section>
+         <section class="box3"><span id=textstyle >{my_skills}</span><br>
             <ul class="skill1">
                 <li class="html"> HTML5 </li>
                 <li class="php"> PHP </li>
                 <li class="js"> JavaScript </li>
                 <li class="cpp"> C++</li>
-
             </ul>
             <ul class="skill2">
                 <li class="css"> CSS </li>
                 <li class="mysql"> MySql </li>
                 <li class="jq"> JQuery </li>
                 <li class="drupal"> Drupal </li>
-
             </ul>
-        </h3>
+        </section>
     </section>
-
+    <section class="box4"><span id="textstyle">Websites I visit most often</span> <p>
+        <a href="http://drupalize.me"> Drupalize Me! </a> <br>and<br>
+        <a href="http://php.net"> PHP.net</a></p>
+        <p>Drupalize.me is a drupal training website. The web site is built on the Drupal content management framework. Drupalize.me has a lot of external JavaScript files. JavaScript is used for google ads, sliders, video completion meters and a whole lot more! </p>
+    </section>
 
     <footer>
         <p>&copy; 2015 Greg Maka. All rights reserved.</p>
+        <ul>
+            <li id="list"><a href="https://github.com/gregmaka"><img src="img/gh.png"></a></li>
+            <li id="list"><a href="https://www.linkedin.com/profile/view?id=381600673&trk=spm_pic"><img src="img/li.png"></a></li>
+            <li id="list"><a href="https://facebook.com"><img src="img/fb.png"></a></li>
+            <li id="list"><a href="https://drupal.org"><img src="img/Dorg.png"></a></li>
+            <li id="list"><a href="https://twitter.com"><img src="img/tw.png"></a></li>
+        </ul>
     </footer>
-</div>
+</section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

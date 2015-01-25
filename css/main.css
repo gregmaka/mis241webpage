@@ -104,7 +104,7 @@ header{
     background-color: white;
     margin-top: -70px;
     height: 20%;
-    max-width: 100%;
+    width: 100%;
     color: #708090;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -124,57 +124,21 @@ header h1{
 footer{
     float: bottom;
     height: 5em;
+    width: 100%;
     background-color: white;
     border: 8px solid #00BFFF;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
     padding-top: 50px;
 }
 footer p{
     float: right;
     padding: 20px;
 }
-section .bio {
-    float: left;
-    width: 430px;
-    padding: 30px;
-    border: 8px solid #00BFFF;
-    border-bottom-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    height: 300px;
-    margin: 25px;
-    color: #708090;
-    background-color: white;
-
-}
-section .skills {
-    width: 430px;
-    padding: 30px;
-    border: 8px solid #00BFFF;
-    border-bottom-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    height: 300px;
-    vertical-align: middle;
-    color: #708090;
-    background-color: white;
-
-}
-section .picture {
-   background-image:url('../img/myPicture.png');
-   background-repeat: no-repeat;
-    float: right;
-    width: 430px;
-    padding: 30px;
-    border: 8px solid #00BFFF;
-    border-bottom-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    height: 300px;
-    margin-right: 100px;
-}
 .boxes{
     position: relative;
   background: lightgray;
-  height: 500px;
+  height: 550px;
   width: 100%;
   margin: 0 auto;
   padding: 10px;
@@ -204,13 +168,13 @@ section .picture {
    /*border-radius: 60px;*/
     border-bottom-right-radius: 60px;
     border-bottom-left-radius: 60px;
-    height: 400px;
+    height: 370px;
   float: left;
   margin: 1%;
   padding: 10px 0;
   text-align: center;
   width: 420px;
-  margin: -300px 0 0 -215px;
+  margin: -320px 0 0 -215px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -228,7 +192,20 @@ section .picture {
   width: 350px;
   color: #708090;
   background-color: white;
-
+}
+.box4{
+  border: 8px solid #00BFFF;
+  border-top: 30px solid #00BFFF;
+  /*border-radius: 60px;*/
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  height: 250px;
+  width: 60%;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  background-color: white;
+  text-align: center;
+  color: #708090;
 }
 #container{
     width: 100%;
@@ -242,6 +219,13 @@ section .picture {
 .skill2{
     float: right;
     text-align: left;
+}
+#textstyle{
+  color:#00BFFF;
+  font-size: 50px;
+}
+#textstyle2{
+  color:#00BFFF;font-size: 21px
 }
 .drupal{
     list-style-image: url('../img/druplicon.png');
@@ -267,19 +251,9 @@ section .picture {
 .jq{
     list-style-image: url('../img/jQ.gif');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#list{
+    display: inline;
+}
 
 
 /* ==========================================================================
