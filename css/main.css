@@ -118,8 +118,14 @@ header p{
     color: #708090;
 }
 header h1{
-    font-size: 85px;
+    font-size: 70px;
     padding: 10px;
+    transition: font-size 2s;
+    transition: color 2s;
+}
+header h1:hover{
+
+  color: #00BFFF;
 }
 footer{
     float: bottom;
@@ -156,7 +162,8 @@ footer p{
   padding: 10px 15px;
   text-align: center;
   width: 350px;
-  color: #708090;
+  /*color: #708090;*/
+  color: white;
   background-color: white;
 
 }
@@ -223,10 +230,30 @@ footer p{
 }
 #textstyle{
   color:#00BFFF;
-  font-size: 50px;
+  font-size: 40px;
+  transition: font-size 2s;
+}
+#textstyle:hover{
+  font-size: 55px;
 }
 #textstyle2{
   color:#00BFFF;font-size: 21px
+  transition: font-size 2s;
+}
+p {
+  transition: color 5s;
+}
+p:hover{
+  color: black;
+}
+h4{
+  color: transparent;
+  font-size: 55px;
+  transition: color 2s;
+}
+h4:hover{
+  color:#00BFFF;
+
 }
 .drupal{
     list-style-image: url('../img/druplicon.png');
