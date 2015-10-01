@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Temperature table</title>
+
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <script src="../../../js/main.js"></script>
+</head>
+<body>
+<section class="boxes">
+    <section class="box5">
+        <h3><span id="textstyle">Temp Table</span></h3></br>
+        <table border=3>
+            <tr><td>CELSIUS</td><td>FAHRENHEIT</td></tr>
+            <script>
+                celsius=20;
+                while (celsius<=120)
+                {
+                    document.write("<tr><td>"+celsius+
+                    "</td><td>"+((celsius*9/5)+32)+"</td></tr>");
+                    celsius=celsius+5;
+                }
+            </script>
+        </table>
+    </section>
+</section>
+<a href="../../../">Home Page</a>
+
+
+</body>
